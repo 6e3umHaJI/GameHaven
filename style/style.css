@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+    background-color: #afadae;
+}
+
+.container {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top{
+    display:block;
+    text-align:center;
+    border-color: #afadae;
+    border-width: 2px;
+    border-bottom-style: solid;
+    padding: 20px 0;
+}
+
+.header-bottom{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.header-bottom-right{
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom .logo{
+
+}
+
+.header-bottom .button__profile{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #232323;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: background-color 200ms ease-in;
+}
+
+.header-bottom .button__profile:hover{
+    background-color: #9633af;
+}
+
+.header-bottom .button__cart{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #232323;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: background-color 200ms ease-in;
+}
+
+.button__cart .button__img{
+    margin-left: 15px;
+    width: 50px;
+}
+
+.button__cart .button__text{
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #232323;
+    transition: color 200ms ease-in;
+}
+
+.header-bottom .button__cart:hover{
+    background-color: #9633af;
+}
+
+nav ul {
+    overflow: hidden;
+    border-color: #232323;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    background-color: #9633af;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 0;
+    transition: background-color 200ms ease-in;
+    font-size: 18px;
+    color: #232323;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+nav .active{
+    background-color: #7e1e91;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer h5{
+    color: #d249f4;
+}
