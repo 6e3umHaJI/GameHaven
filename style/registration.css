@@ -4,15 +4,16 @@ body{
 
 .button__home{
     height: 100px;
-    position: fixed; top: 21%; left: 50%;
-    transform: translate(-50%, -60%);
+    padding-bottom: 5px;
 }
 
 .wrap{
     position: fixed; top: 50%; left: 50%;
-    -webkit-transform: translate(-50%, -60%);
-    -ms-transform: translate(-50%, -60%);
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -70%);
+    text-align: center;
+}
+
+.wrap form{
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -66,13 +67,14 @@ span.psw a:hover {
     opacity: 0.8;
 }
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
+@media(max-width: 370px){
+    .wrap form {
+        width: 300px;
     }
-    .cancelbtn {
-        width: 100%;
+}
+
+@media(max-height: 700px){
+    .wrap{
+        transform: translate(-50%, -60%);
     }
 }

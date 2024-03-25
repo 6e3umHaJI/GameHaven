@@ -8,19 +8,21 @@
 </head>
 <body>
 <div class = "container">
-    <a href="main.html"><img class="button__home" src="../img/logo.png" alt = ""/></a>
-    <form action="/action_page.php" class = "wrap">
-        <h2>Регистрация</h2>
-        <div>
-            <input type="text" placeholder="E-mail" name="uname" required>
-            <input type="password" placeholder="Пароль" name="psw" required>
-            <input type="password" placeholder="Повторите пароль" name="psw" required>
-            <button type="submit">Зарегистрироваться</button>
-        </div>
-        <div class = "quick-links">
-            <span class="psw">Есть профиль на GameHaven? <a href="login.html" style = "color: #d249f4;">Войти</a></span>
-        </div>
-    </form>
+    <div class = "wrap">
+        <a href="main.html"><img class="button__home" src="../img/logo.png" alt = ""/></a>
+        <form action="action.php">
+            <h2>Регистрация</h2>
+            <div>
+                <input type="text" placeholder="E-mail" name="uname" required>
+                <input type="password" placeholder="Пароль" name="psw" required>
+                <input type="password" placeholder="Повторите пароль" name="pswRep" required>
+                <button type="submit">Зарегистрироваться</button>
+            </div>
+            <div class = "quick-links">
+                <span class="psw">Есть профиль на GameHaven? <a href="login.html" style = "color: #d249f4;">Войти</a></span>
+            </div>
+        </form>
+    </div>
 </div>
 </body>
 </html>

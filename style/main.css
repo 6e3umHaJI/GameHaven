@@ -77,3 +77,61 @@
     background-color: #9633af;
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .why-me .reason{
+        width: 25%;
+    }
+
+    .reason .reason-img{
+        max-width: 100px;
+        width: 70%;
+        height: auto;
+    }
+
+    .reason .reason-text{
+        font-size: 12px;
+    }
+
+    .about-company{
+        width: 90%;
+    }
+
+    .about-company .info{
+        height: auto;
+        .text{
+            width: 100%;
+        }
+    }
+
+    .about-company img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .reasons{
+        flex-direction: column;
+    }
+
+    .why-me .reason{
+        width: 70%;
+    }
+
+    .reason .reason-text{
+        font-size: 14px;
+    }
+
+    .about-company{
+        padding: 24px 0;
+        .title{
+            font-size: 24px;
+            margin: 0;
+        }
+        .paragraph{
+            font-size: 14px;
+        }
+    }
+
+}
