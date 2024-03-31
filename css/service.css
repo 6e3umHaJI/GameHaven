@@ -36,6 +36,12 @@ li::marker{
     width: 100%;
 }
 
+.map iframe{
+    width:100%;
+    height:400px;
+    border: 0;
+}
+
 @media (max-width: 900px){
     h1{
         font-size: 30px;
@@ -48,8 +54,11 @@ li::marker{
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 500px){
     h1{
         font-size: 26px;
+    }
+    .map iframe{
+        height:300px;
     }
 }

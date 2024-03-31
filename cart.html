@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta name="viewport" content="width=device-width; initial-scale=1">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/cart.css">
-    <link rel="import" href="header.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
     <title>Корзина</title>
 </head>
 <body>
@@ -14,15 +14,15 @@
             <span>Время работы: </span><span>Пн-Сб: 10:00 - 20:00 | Вс: 10:00 - 18:00</span>
         </div>
         <div class = "header-bottom">
-            <a class = "header__logo" href="main.html"><img src="../img/logo2.png" alt = ""/></a>
+            <a class = "header__logo" href="index.html"><img src="img/logo2.png" alt = ""></a>
             <div class = "header-bottom-right">
-                <a class="button__profile" href="login.html"><img src="../img/profile.png" alt = ""/></a>
-                <a class="button__cart" href="cart.html"><img class = "button__img" src="../img/cart.png" alt = ""/><p class = "button__text">Корзина</p></a>
+                <a class="button__profile" href="login.html"><img src="img/profile.png" alt = ""></a>
+                <a class="button__cart" href="cart.html"><img class = "button__img" src="img/cart.png" alt = ""><p class = "button__text">Корзина</p></a>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="main.html">Главная</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="shop.html">Магазин</a></li>
                 <li><a href="service.html">Сервис</a></li>
                 <li><a href="#bottom">Контакты</a></li>
@@ -30,40 +30,40 @@
         </nav>
     </header>
     <main>
-        <h3>Корзина товаров</h3>
         <section class = "cart">
+            <h3>Корзина товаров</h3>
             <header class = "cart__header">
                 <span>Наименование:</span>
                 <span>Количество:</span>
                 <span>Стоимость:</span>
             </header>
-            <section class = "product">
-                <img class = "product__img" src = "../img/ps4.png" alt = "">
+            <div class = "product">
+                <img class = "product__img" src = "img/ps4.png" alt = "">
                 <span class = "product__title">Sony Playstation 4</span>
                 <input type = "number" class = "product__count" min = "1" max = "99" value="1">
                 <span class = "product__price">199.00</span>
                 <div class = "product__controls">
-                    <button type = "button"><img height = 20px src = "../img/cross.png" alt = "Delete"></button>
+                    <button type = "button"><img height = "20" src = "img/cross.png" alt = "Delete"></button>
                 </div>
-            </section>
-            <section class = "product">
-                <img class = "product__img" src = "../img/game1.png" alt = "">
+            </div>
+            <div class = "product">
+                <img class = "product__img" src = "img/game1.png" alt = "">
                 <span class = "product__title">Nier: Automata</span>
                 <input type = "number" class = "product__count" min = "1" max = "99" value="1">
                 <span class = "product__price">19.99</span>
                 <div class = "product__controls">
-                    <button type = "button"><img height = 20px src = "../img/cross.png" alt = "Delete"></button>
+                    <button type = "button"><img height = "20" src = "img/cross.png" alt = "Delete"></button>
                 </div>
-            </section>
-            <section class = "product">
-                <img class = "product__img" src = "../img/game2.png" alt = "">
+            </div>
+            <div class = "product">
+                <img class = "product__img" src = "img/game2.png" alt = "">
                 <span class = "product__title">Grand Theft Auto 5</span>
                 <input type = "number" class = "product__count" min = "1" max = "99" value="1">
                 <span class = "product__price">29.99</span>
                 <div class = "product__controls">
-                    <button type = "button"><img height = 20px src = "../img/cross.png" alt = "Delete"></button>
+                    <button type = "button"><img height = "20" src = "img/cross.png" alt = "Delete"></button>
                 </div>
-            </section>
+            </div>
             <footer class = "cart__footer">
                 <span>3</span>
                 <span class = "product__price">248.98</span>
@@ -73,7 +73,7 @@
     <footer>
         <a id = "bottom"></a>
         <div class = "img__logo">
-            <img src="../img/logo.png" height="80" alt = "">
+            <img src="img/logo.png" height="80" alt = "">
         </div>
         <div>
             <h5>Телефон</h5>
@@ -88,8 +88,8 @@
                 <li>gamehaven.by@gmail.com</li>
                 <li>gamehaven@tut.by</li>
                 <li>
-                    <a  href="https://vk.com/feed"><img alt="vk" width="30" height="30" src="../img/vk.png"></a>
-                    <a  href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src="../img/instagram.png"></a>
+                    <a  href="https://vk.com/feed"><img alt="vk" width="30" height="30" src="img/vk.png"></a>
+                    <a  href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src="img/instagram.png"></a>
                 </li>
             </ul>
         </div>
