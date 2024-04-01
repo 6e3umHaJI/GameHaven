@@ -55,7 +55,7 @@
 .about-company .info{
     display: flex;
     justify-content: space-around;
-    height: 400px;
+    align-items: center;
 }
 
 .about-company .img{
@@ -63,7 +63,7 @@
 }
 
 .about-company .text{
-    width: 400px;
+    width: 50%;
 }
 
 .about-company .paragraph{
